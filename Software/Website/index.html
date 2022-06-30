@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="assets/main-style.css">
+        <link rel="stylesheet" href="assets/home/home-style.css">
+        <link rel="shortcut icon" type="image/png" href="assets/images/robotic-arm.png"/>
+        <title>Website</title>
+    </head>
+    <body>
+        <div class="main">
+            <div class="bar1">
+                <button type="button" class="btn1">
+                    <img src="assets/images/robotic-arm.png" class="img" width="50">
+                </button>
+                <button type="button" class="btn2">Home</button>
+                <button type="button" class="btn2">Settings</button>
+                <button type="button" class="btn2">About</button>
+            </div>
+            <div class="bar2">
+                <img src="assets/images/user.png" class="img2" width="50">
+                <h3 class="user-text">John Zygoulakis Admin</h3>
+                <div class="seperator1"></div>
+            </div>
+            <div class="content1">
+                <div class="box1">
+                </div>
+                <div class="box2">
+                    <h1 id="bperc" class="bperc">---%</h1>
+                    <h1 class="btitle">Battery</h1>
+                    <div class="bat-shell">
+                        <div id="Bperc" class="bat-perc">
+                        </div>
+                    </div>
+                    <div class="bat-point">
+                    </div>
+                </div>
+                <div class="box3">
+                </div>
+                <div class="box4">
+                </div>
+                <div class="box5">
+                </div>
+            </div>
+            <div class="content2">
+                <ul class="info">
+                    <li id="temp">Temperaure: 0C</li>
+                    <li id="cpu_usage">CPU Usage: 0%</li>
+                    <li id="ram_usage">RAM Usage: 0%</li>
+                    <li id="storage">Free Storage: 0GB</li>
+                    <li id="power">Power Input: 0V</li>
+                    <li id="user">Logged In as: ----</li>
+                </ul>
+                <input type="text" autocomplete="false" class="search" id="search" placeholder="Search">
+                <button type="button" class="searchbtn" id="searchbtn">🔍</button>
+                <div class="seperator2"></div>
+                <p class="modelText">Robot Model</p>
+            </div>
+        </div>
+        <script type="module" src="assets/main-script.js"></script>
+    </body>
+</html>

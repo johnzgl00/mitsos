@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+:root{
+    --dark-background-1: #575959;
+    --dark-background-2: #222525;
+    --dark-background-2-1: #252727;
+    --dark-background-3: #202020;
+    --font-color-1: #707070;
+    --accent-color-1: #ce1a1a;
+    --dark-foreground-1: #303333;
+}
+
+.box1{
+    background-color: var(--dark-foreground-1);
+    border-radius: 1.5rem;
+    height: 20rem;
+    width: 30rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.box2{
+    background-color: var(--dark-foreground-1);
+    border-radius: 1.5rem;
+    height: 15rem;
+    width: 15.5rem;
+}
+
+.box3{
+    background-color: var(--dark-foreground-1);
+    border-radius: 1.5rem;
+    height:18rem;
+    width: 30rem;
+}
+
+.box4{
+    transform: translate(0%,-21.5%);
+    background-color: var(--dark-foreground-1);
+    border-radius: 1.5rem;
+    height: 23rem;
+    width: 15.5rem;
+}
+
+.bperc{
+    color: var(--font-color-1);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.06rem;
+    transform: translate(39%, 590%);
+}
+
+.btitle{
+    color: var(--font-color-1);
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.06rem;
+    transform: translate(29%, -160%);
+}
+
+.bat-shell{
+    transform: translate(20%,-40%);
+    width: 9rem;
+    height: 5rem;
+    border: solid;
+    border-color: var(--font-color-1);
+    border-width: 0.6rem;
+    border-radius: 0.8rem;
+    background: none;
+    padding: 0.3rem;
+}
+
+.bat-point{
+    transform: translate(1100%,-415%);
+    width: 0.01rem;
+    height: 0.5rem;
+    border: solid;
+    border-color: var(--font-color-1);
+    border-width: 0.6rem;
+    border-radius: 0.3rem;
+    background: none;
+}
+
+.bat-perc{
+    background-color: var(--accent-color-1);
+    border-radius: 0.2rem;
+    height: 100%;
+    width: 100%;
+}
